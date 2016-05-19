@@ -282,5 +282,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
 	charger_res_images
 
+# Doze
+PRODUCT_PACKAGES += \
+    OnePlusDoze
+
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)
