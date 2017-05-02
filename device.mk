@@ -126,6 +126,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OneplusDoze
 
+# Jelly
+PRODUCT_PACKAGES += \
+    Jelly
+
 # Filesystem management tools
 PRODUCT_PACKAGES += \
     e2fsck \
