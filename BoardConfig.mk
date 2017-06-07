@@ -115,6 +115,9 @@ TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 # Charger
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # CNE and DPM
 TARGET_LDPRELOAD := libNimsWrap.so
 BOARD_USES_QCNE := true
