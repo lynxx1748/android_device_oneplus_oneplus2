@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/broke.mk
+    $(LOCAL_DIR)/broken.mk
